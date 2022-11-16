@@ -46,7 +46,10 @@ public class CharacterController : MonoBehaviour
 
      if(Input.GetKey(KeyCode.LeftShift) && sprintTimer > 0.0f)
      {
-         maxSpeed =
+         maxSpeed = sprintSpeed;
+     } else
+     {
+         maxSpeed = normalSpeed;
      }
 
      if (Input.GetKey(KeyCode.LeftShift))
