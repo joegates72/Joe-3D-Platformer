@@ -6,7 +6,7 @@ public class CharacterController : MonoBehaviour
 {
  float maxSpeed;
  public float normalSpeed = 15.0f;
- public float sprintSpeed = 25.0f;
+ public float sprintSpeed = 30.0f;
  
  float rotation = 0.0f;
  float camRotation = 0.0f;
